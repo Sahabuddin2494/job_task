@@ -1,0 +1,119 @@
+/* font_family_start */
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@100;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* font_family_end */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --blue_color:#4277FF;
+    --text_color:#5C6574;
+    --text2-color:#495264;
+    --text_para_color:#3F4654;
+    --blue_dip_color:#3C65F6;
+    --dark_light_color:#2C3341;
+}
+/* common_section_start */
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+/* common_section_end */
+
+/* header_section_start */
+.header_section_start{
+
+}
+.header_logo{
+
+}
+.header_menu_section{
+
+}
+.header_menu_section ul{
+ text-align: right;
+}
+.header_menu_section ul li{
+    display: inline-block;
+    padding: 12px 15px;   
+}
+.header_menu_section ul li .btn{
+    background-color:var(--blue_color);
+    color: white;
+    font-size: 18px;
+    border-radius: 12px;
+    font-family: Roboto;
+    padding: 8px 14px;
+}
+.header_menu_section ul li a{
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--text_color);
+}
+/* we_have_develop_part_start */
+.we_have_develop{
+
+}
+.we_have_develop_left{
+
+}
+.we_have_develop_left h1{
+font-family: 'Asap';
+font-style: normal;
+font-weight: 700;
+font-size:60px;
+color:var(--text_color);
+text-align:left;
+}
+.we_have_develop_left_btn{
+
+}
+.we_have_develop_left_btn .btn{
+background-color: var(--blue_color);
+color: white;
+font-family: 'Asap';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+}
+/* left_part_end */
+.we_have_develop_left_right{
+
+}
+.we_have_develop_left_right_img{
+    position: relative;
+}
+
+.we_have_right_img_2{
+position: absolute;
+top:15%;
+left:25%;
+right: 10%;
+
+}
+.animation_img_size{
+    width:60%;
+    height:auto;
+    /* background-color: red; */
+    position: relative;
+    animation-name:we_have_animation;
+    animation-duration: 4s;
+
+}
+@keyframes we_have_animation {
+    0%   {left:0px; top:0px;}
+    25%  { left:100px; top:0px;}
+    50%  { left:100px; top:150px;}
+    75%  { left:-50px; top:150px;}
+    100% { left:-50px; top:0px;}
+  }
+/* we_have_develop_part_end */
+/* header_section_end */
