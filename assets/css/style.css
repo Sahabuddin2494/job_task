@@ -28,7 +28,11 @@ a{
 
 /* header_section_start */
 .header_section_start{
-
+    background-image: url("../image/Rectangle\ 728.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 100%;
 }
 .header_logo{
 
@@ -72,7 +76,42 @@ font-weight: 700;
 font-size:60px;
 color:var(--text_color);
 text-align:left;
+
 }
+.we_have_develop_left h1 .incredible{
+    position: relative;
+}
+.we_have_develop_left h1 .incredible::after{
+    content: "";
+    display: inline-block;
+    background-image: url(../image/animated\ line\ 2.png);
+    width:100%;
+    height: 17px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+    right: 0%;
+}
+/* incredible_end */
+.we_have_develop_left h1 .easier{
+    position: relative;
+}
+.we_have_develop_left h1 .easier::before{
+    content: "";
+    display: inline-block;
+    background-image: url(../image/animated\ line.png);
+    width:100%;
+    height: 17px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+    right: 0%;
+}
+
 .we_have_develop_left_btn{
 
 }
@@ -102,11 +141,11 @@ right: 10%;
 .animation_img_size{
     width:60%;
     height:auto;
-    /* background-color: red; */
     position: relative;
     animation-name:we_have_animation;
     animation-duration: 4s;
-
+    animation-iteration-count:2;
+    animation-direction: alternate;
 }
 @keyframes we_have_animation {
     0%   {left:0px; top:0px;}
@@ -114,6 +153,28 @@ right: 10%;
     50%  { left:100px; top:150px;}
     75%  { left:-50px; top:150px;}
     100% { left:-50px; top:0px;}
+  }
+  /* animate_2_img_end */
+  .we_have_right_img_3{
+    position: absolute;
+    top: 35%;
+    right: 9%;
+    left: 66%;
+  }
+  .animation_img3_size{
+    width:70%;
+    height: auto;
+    position: relative;
+    animation-name:we_have_animation2;
+    animation-duration: 6s;
+  }
+  /* animation_img-3 */
+  @keyframes we_have_animation2 {
+    0%   { bottom:0px;  right:0px; }
+    25%  { bottom:80px; right:0px;}
+    50%  { bottom:80px; right:250px;}
+    75%  { bottom:0px; right:250px;}
+    100% { bottom:0px; right:0px;}
   }
 /* we_have_develop_part_end */
 /* header_section_end */
