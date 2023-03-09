@@ -178,3 +178,30 @@ right: 10%;
   }
 /* we_have_develop_part_end */
 /* header_section_end */
+/* carousel_section_start */
+.carousel_section_start{
+
+}
+.carousel_section_main{
+
+}
+.carousel_section_main .slider_img_size{
+width:100%;
+/* height: 80vh; */
+}
+
+.carousel_section_main .carousel-control-prev-icon {
+    display: none;
+}
+.carousel_section_main .carousel-control-next-icon {
+    display: none;
+}
+.carousel_section_main .carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    background-color:var(--text_color);
+    opacity: 1;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+/* carousel_section_end */

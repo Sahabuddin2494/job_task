@@ -63,4 +63,18 @@
     .we_have_develop_left_btn .btn {
         font-size: 14px;
       }
+      
+.carousel_section_main .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -18px;
+    left: 0;
+  }
+  @keyframes we_have_animation2 {
+    0%   { bottom:0px;  right:0px; }
+    25%  { bottom:80px; right:0px;}
+    50%  { bottom:80px; right:200px;}
+    75%  { bottom:0px; right:200px;}
+    100% { bottom:0px; right:0px;}
+  }
 }
