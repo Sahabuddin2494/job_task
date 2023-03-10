@@ -759,3 +759,33 @@ line-height: 23px;
 color: var(--text_color);
 }
 /* feedback_section_end */
+/* brand_who_Trust_aorasoft_section_start */
+.brand_who_Trust_aorasoft_section_start{
+
+}
+.who_trust_aorasoft_title{
+text-align: center;
+}
+.who_trust_aorasoft_title h2{
+    font-family: 'Asap';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: var(--text_color);
+}
+.who_trust_aorasoft_details{
+
+}
+.who_trust_aorasoft_one{
+    background-color: white;
+    background: #FFFFFF;
+border: 1px solid rgba(63, 70, 84, 0.1);
+border-radius: 20px;
+}
+.slider_impor_size{
+    width: 50%;
+    display: block;
+     margin: auto;
+}
+/* brand_who_Trust_aorasoft_section_end */
