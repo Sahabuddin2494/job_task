@@ -692,7 +692,70 @@ top:3%;
 top: 90%;
 }
 /* left_end */
+/* feedback_section_left_end */
 .feedback_section_right{
 
+}
+.feedback_section_right_main{
+    background: #FFFFFF;
+box-shadow: 8px 9px 141px rgba(0, 0, 0, 0.1);
+border-radius: 30px 0px 0px 30px;
+
+}
+.feedback_section_right_main_img{
+
+}
+.feedback_section_right_main_para{
+
+}
+.feedback_section_right_main_para p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 35px;
+color: var(--text_color);
+}
+.feedback_section_right_btn{
+display: flex;
+justify-content: flex-end;
+}
+.feedback_section_right_btn .nav-pills .nav-link {
+    text-transform: capitalize;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 0px;
+}
+.feedback_section_right_main_custom{
+display: flex;
+align-items: center;
+justify-content:flex-start;
+}
+.feedback_section_right_main_custom_img{
+
+}
+.feedback_section_right_main_custom_img .extra_img{
+    /* width: 40%; */
+}
+.feedback_section_right_main_custom_img_para{
+padding-left: 10px;
+}
+.feedback_section_right_main_custom_img_para p{
+    margin: 0px;
+    font-family: 'Asap';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+/* identical to box height, or 192% */
+text-transform: uppercase;
+color: #5C6574;
+}
+.feedback_section_right_main_custom_img_para small{
+    font-family: 'Asap';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+color: var(--text_color);
 }
 /* feedback_section_end */
