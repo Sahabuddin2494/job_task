@@ -211,7 +211,7 @@ width:100%;
     background-color: var(--bg-color-c);
 }
 .payment_gateways_section_left{
-
+    position: relative;
 }
 .payment_gateways_left_first_c{
     width:100%;
@@ -220,7 +220,92 @@ width:100%;
     border: 1px solid #38C2EE;
     border-radius: 50%;
     background-color:#EFF3F6;
+    
 }
+/* .left_first_c_img__section_start */
+.left_first_c_img_1{
+width:18%;
+height: 5.5rem;
+background-color: white;
+border-radius: 50%;
+/* box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1); */
+position: absolute;
+top:-5%;
+left:50%;
+bottom: 5%;
+}
+.left_first_c_img_1_size{
+    padding-top: 38px;
+    padding-left: 18px;
+    width: 80%;
+    text-align: center;
+}
+/* 1_img_end */
+.left_first_c_img_2{
+    position:absolute;
+    width:14%;
+    height: 4.9rem;
+    background-color:white;
+    border-radius: 50%;
+    top:10%;
+    left:5%;
+    bottom: 0%;
+}
+.left_first_c_img_2_size{
+    padding-top: 20px;
+    padding-left: 6px;
+    padding-right: 4px;
+    text-align: center;
+}
+/* 2_img_end */
+.left_first_c_img_3{
+    width:17%;
+    height: 6rem;
+    background-color:white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0%;
+    left: 15%;
+    right: 0%;
+}
+.left_first_c_img_3_size{
+    width: 80%;
+    padding-top:30px;
+    padding-left: 10px;
+}
+/* 3_img_end */
+.left_first_c_img_4{
+    width:17%;
+    height: 6rem;
+    background-color:white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    
+}
+.left_first_c_img_4_size{
+    width: 80%;
+    padding-top:25px;
+    padding-left: 14px;
+}
+/* 4_img_end */
+.left_first_c_img_5{
+    width:15%;
+    height: 5rem;
+    background-color:white;
+    border-radius: 50%;
+    position: absolute;
+    left: 90%;
+    top: 40%;
+}
+.left_first_c_img_5_size{
+padding-top:15px;
+padding-left: 8px;
+}
+/* 5_img_end */
+/* payment_gateways_left_first_c _end*/
+
 .payment_gateways_left_first_second{
     width:70%;
     /* height:390px; */
