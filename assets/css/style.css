@@ -244,11 +244,11 @@ bottom:85%;
 }
   /* animation_img-3 */
   @keyframes c_img_1_size {
-    0%   { bottom:0px;  right:0px; transform: scale(1.3); }
-    25%  { bottom:40px; right:0px;}
-    50%  { bottom:40px; right:200px;}
-    75%  { bottom:0px; right:200px;}
-    100% { bottom:0px; right:0px;}
+    0%   { top:0px;  right:0px; transform: scale(1.3); }
+    25%  { top:40px; right:0px;}
+    50%  { top:40px; right:150px;}
+    75%  { top:0px; right:150px;}
+    100% { top:0px; right:0px;}
   }
 
 
@@ -271,14 +271,14 @@ bottom:85%;
     position: relative;
     animation-name:c_img_2_size;
     animation-duration: 6s;
-    animation-direction: reverse;
+    z-index: 3;
 }
 @keyframes c_img_2_size {
-    0%   { bottom:0px;  right:0px; transform: scale(1.3); }
-    25%  { bottom:40px; right:0px;}
-    50%  { bottom:40px; right:100px;}
-    75%  { bottom:0px; right:100px;}
-    100% { bottom:0px; right:0px;}
+    0%   { left:0px;  top:0px; transform: scale(1.3); }
+    25%  { left:40px; top:0px;}
+    50%  { left:40px; top:100px;}
+    75%  { left:0px; top:100px;}
+    100% { bottom:0px; top:0px;}
   }
 /* 2_img_end */
 .left_first_c_img_3{
@@ -299,13 +299,14 @@ bottom:85%;
     animation-name:c_img_3_size;
     animation-duration: 6s;
     animation-direction: reverse;
+    z-index: 5;
 }
 @keyframes c_img_3_size {
-    0%   { bottom:0px;  right:0px; transform: scale(1.3); }
-    25%  { bottom:40px; right:0px;}
-    50%  { bottom:40px; right:100px;}
-    75%  { bottom:0px; right:100px;}
-    100% { bottom:0px; right:0px;}
+    0%   { bottom:0px;  left:0px; transform: scale(1.3); }
+    25%  { bottom:40px; left:0px;}
+    50%  { bottom:40px; left:100px;}
+    75%  { bottom:0px; left:100px;}
+    100% { bottom:0px; left:0px;}
   }
 /* 3_img_end */
 .left_first_c_img_4{
@@ -394,13 +395,14 @@ z-index: 3;
 animation-name:secon_img_1;
 animation-duration: 6s;
 z-index: 3;
+/* animation-direction: reverse; */
 }
 @keyframes secon_img_1 {
-    0%   { bottom:0px;  right:0px; transform: scale(1.3); }
-    25%  { bottom:40px; right:0px;}
-    50%  { bottom:40px; right:100px;}
-    75%  { bottom:0px; right:100px;}
-    100% { bottom:0px; right:0px;}
+    0%   { bottom:0px;  left:0px; transform: scale(1.3); }
+    25%  { bottom:40px; left:0px;}
+    50%  { bottom:40px; left:100px;}
+    75%  { bottom:0px; left:100px;}
+    100% { bottom:0px; left:0px;}
   }
 /* _one_end */
 .left_first_secon_img_2{
@@ -423,11 +425,11 @@ z-index: 3;
     animation-direction: alternate;
 }
 @keyframes secon_img_2 {
-    0%   { bottom:0px;  right:0px; transform: scale(1.3); }
-    25%  { bottom:40px; right:0px;}
-    50%  { bottom:40px; right:100px;}
-    75%  { bottom:0px; right:100px;}
-    100% { bottom:0px; right:0px;}
+    0%   { bottom:0px;  left:0px; transform: scale(1.3); }
+    25%  { bottom:40px; left:0px;}
+    50%  { bottom:40px; left:100px;}
+    75%  { bottom:0px; left:100px;}
+    100% { bottom:0px; left:0px;}
   }
 /* second_one_end */
 .left_first_secon_img_3{
