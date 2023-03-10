@@ -403,7 +403,7 @@
                                                 <li><a href="#">All Member List</a></li>
                                                 <li><a href="#">Monthly Sales Report</a></li>
                                                 <li><a href="#">Support Ticket</a></li>
-                                                <li><a href="#">Monthly Sales Report</a>
+                                                <li><a href="#rasel_important" onclick="myFunction()">Monthly Sales Report</a>
                                                     <!-- screenshort_slider_start -->
                                                     <div class="screenshort_slider_start">
                                                        
@@ -464,7 +464,7 @@
                                 </p>
                             </div>
                             <!-- title_end -->
-                            <div class="user_friendly_design_right_slider p-5 id=rasel_important">
+                            <div class="user_friendly_design_right_slider p-5" id="rasel_important">
                                 <!-- slider_start -->
                                 <div id="carouselExample" class="carousel slide">
                                     <div class="carousel-inner">
@@ -513,6 +513,12 @@ $('.who_trust_aorasoft_details').slick({
     </script>
      <!-- who-trust_slider_end -->
      <!-- important-slider -->
-     
+     <script>
+            const x=document.getElementById("rasel_important");
+             x.style.display="none";
+         function myFunction(){
+            x.style.display="block";
+         }
+     </script>
 </body>
 </html>
