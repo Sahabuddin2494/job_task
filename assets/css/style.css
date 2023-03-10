@@ -788,3 +788,113 @@ border-radius: 20px;
      margin: auto;
 }
 /* brand_who_Trust_aorasoft_section_end */
+/* user_friendly_design_section_start */
+.user_friendly_design_section_start{
+
+}
+.user_friendly_design_left{
+background-color: #2C3341;
+border-radius: 10px;
+}
+.user_friendly_design_left_title{
+
+}
+.user_friendly_design_left_title h3{
+    font-family: 'Asap';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 37px;
+/* identical to box height */
+
+text-align: center;
+
+color: #4277FF;
+}
+.user_friendly_design_left_nav{
+
+}
+.user_friendly_design_left_nav .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: var(--bs-nav-tabs-link-active-color);
+    background-color: var(--bs-nav-tabs-link-active-bg);
+    border-color: var(--bs-nav-tabs-link-active-border-color);
+    background-color: blue;
+    color: white;
+
+}
+.user_friendly_design_left_nav .nav-tabs .nav-link {
+    background-color:#2C3341;
+    color: #4277FF;
+    border: 1px solid #4277FF;
+    border-radius: 20px;
+}
+.user_friendly_design_left_nav .nav-tabs {
+    justify-content: center;
+}
+
+.user_friendly_design_left_nav_details{
+
+}
+/* for_admin_details _start*/
+.for_admin_details{
+
+}
+.for_admin_details ul{
+
+}
+.for_admin_details ul li{
+    background: rgba(66, 119, 255, 0.1);
+    border-radius: 10px;
+ margin-top:10px;
+ margin-bottom: 6px;
+padding:10px 10px;
+}
+.for_admin_details ul li a{
+    font-family: 'Asap';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color: #4277FF;
+}
+/* for_admin_details_end */
+/* left_end/ *//* left_end/ *//* left_end/ *//* left_end/ */
+/* ============ */
+.user_friendly_design_right{
+background-color:#3C65F6;
+border-radius: 20px 0px 0px 20px;
+}
+.user_friendly_design_right_title{
+text-align: center;
+}
+.user_friendly_design_right_title h1{
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    /* or 125% */
+    
+    text-align: center;
+    
+    /* White */
+    
+    color: #FFFFFF;
+}
+.user_friendly_design_right_title p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* or 167% */
+text-align: center;
+/* White */
+color: #FFFFFF;
+opacity: 0.8;
+}
+/* important */
+.user_friendly_design_right_slider{
+
+}
+/* user_friendly_design_section_end */

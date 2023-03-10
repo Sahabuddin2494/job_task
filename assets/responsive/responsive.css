@@ -78,6 +78,22 @@
         left: 50%;
         bottom: 93%;
       }
+      .user_friendly_design_left_nav .nav-tabs .nav-link {
+        background-color: #2C3341;
+        color: #4277FF;
+        border: 1px solid #4277FF;
+        border-radius: 14px;
+        padding: 6px 6px;
+        font-size: 14px;
+      }
+      .for_admin_details ul li a {
+        font-family: 'Asap';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4277FF;
+      }
 }
 
 @media (min-width:768px) and (max-width:991.98px) {
@@ -172,6 +188,12 @@ left: 89%;
       left: 92%;
       top: 50%;
       right: 0%;
+    }
+    .user_friendly_design_right_title h1 {
+      font-size: 33px;
+    }
+    .user_friendly_design_right_title p {
+      font-size: 12px;
     }
 }
 
@@ -279,6 +301,12 @@ left: 89%;
       left: 92%;
       top: 50%;
       right: 0%;
+    }
+    .user_friendly_design_right_title h1 {
+      font-size:25px;
+    }
+    .user_friendly_design_right_title p {
+      font-size: 11px;
     }
 }
 @media (max-width:575.98px){
@@ -420,5 +448,13 @@ left: 89%;
                 left: 92%;
                 top: 50%;
                 right: 0%;
+              }
+              .user_friendly_design_right_title h1 {
+                font-size:25px;
+                line-height:30px;
+              }
+              .user_friendly_design_right_title p {
+                font-size: 11px;
+                line-height: 16px;
               }
 }
