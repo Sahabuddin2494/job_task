@@ -211,7 +211,7 @@ width:100%;
     background-color: var(--bg-color-c);
 }
 .payment_gateways_section_left{
-    position: relative;
+    /* position: relative; */
 }
 .payment_gateways_left_first_c{
     width:100%;
@@ -220,7 +220,7 @@ width:100%;
     border: 1px solid #38C2EE;
     border-radius: 50%;
     background-color:#EFF3F6;
-    
+      position: relative;
 }
 /* .left_first_c_img__section_start */
 .left_first_c_img_1{

@@ -74,6 +74,45 @@
         width: 90%;
       }
     /* for_circle-section */
+    /* circle_details_start */
+    .left_first_c_img_1 {
+      width: 18%;
+      height: 6.5rem;
+      bottom: 89%;
+    }
+    .left_first_c_img_2 {
+      height: 4.4rem;
+      width: 12%;
+    }
+    .left_first_secon_img_1 {
+      width: 17%;
+      height: 4.1rem;
+    }
+    .left_first_secon_img_2 {
+      height: 4.5rem;
+      width: 18%;
+    }
+    .left_first_secon_img_4 {
+      width: 16%;
+      height: 4rem;
+    }
+    .left_first_c_img_3 {
+      width: 13%;
+      height: 5.1rem;
+    }
+    .left_first_secon_img_3 {
+      width: 15%;
+      height: 4.0rem;
+    }
+    .left_first_c_img_4 {
+      width: 13%;
+      height: 5.1rem;
+    }
+    .left_first_c_img_5 {
+      width: 12%;
+      height: 4.6rem;
+    }
+     /* circle_details_end */
 }
 
 @media (min-width:576px) and (max-width:767.98px){
@@ -109,6 +148,45 @@
         height: 10rem;
       }
        /* for-circle */
+           /* circle_details_start */
+    .left_first_c_img_1 {
+      width: 18%;
+      height: 6rem;
+      bottom: 89%;
+    }
+    .left_first_c_img_2 {
+      height: 4rem;
+      width: 12%;
+    }
+    .left_first_secon_img_1 {
+      width: 17%;
+      height: 4.1rem;
+    }
+    .left_first_secon_img_2 {
+      height: 4.2rem;
+      width: 18%;
+    }
+    .left_first_secon_img_4 {
+      width: 16%;
+      height: 4rem;
+    }
+    .left_first_c_img_3 {
+      width: 13%;
+      height: 4.6rem;
+    }
+    .left_first_secon_img_3 {
+      width: 15%;
+      height: 3.7rem;
+    }
+    .left_first_c_img_4 {
+      width: 13%;
+      height: 4.6rem;
+    }
+    .left_first_c_img_5 {
+      width: 12%;
+      height: 4.1rem;
+    }
+     /* circle_details_end */
 }
 @media (max-width:575.98px){
     .header_logo{
@@ -165,4 +243,50 @@
   }
 
    /* for-circle */
+            /* circle_details_start */
+            .left_first_c_img_1 {
+              width: 15%;
+              height: 5rem;
+              bottom: 89%;
+            }
+            .left_first_c_img_2 {
+              height: 4rem;
+              width: 12%;
+            }
+            .left_first_secon_img_1 {
+              width: 17%;
+              height: 4.1rem;
+            }
+            .left_first_secon_img_2 {
+              height: 4.2rem;
+              width: 18%;
+            }
+            .left_first_secon_img_4 {
+              width: 16%;
+              height: 4rem;
+            }
+            .left_first_c_img_3 {
+              width: 13%;
+              height: 4.6rem;
+            }
+            .left_first_secon_img_3 {
+              width: 15%;
+              height: 3.7rem;
+            }
+            .left_first_c_img_4 {
+              width: 13%;
+              height: 4.6rem;
+            }
+            .left_first_c_img_5 {
+              width: 12%;
+              height: 4.1rem;
+            }
+            .payment_gateways_left_first_3rd_img {
+              /* background-color: red; */
+              position: absolute;
+              top: 6%;
+              left: 10%;
+              right: 10%;
+            }
+             /* circle_details_end */
 }
