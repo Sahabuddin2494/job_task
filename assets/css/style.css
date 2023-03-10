@@ -588,3 +588,111 @@ line-height: 30px;
 color: #A5A9B0;
 }
 /* payment_gateways_section_end */
+/* feedback_section_start*/
+.feedback_section{
+background-color: #EEF3F8;
+}
+.feedback_section_left{
+
+}
+.feedback_section_left_main{
+    /* border: 2px dashed #EEF4F7; */
+     border: 2px dashed red;
+    height: 20rem;
+    border-left: none;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    border-radius: 0px 200px 200px 0px;
+    width: 95%;
+    position: relative;
+}
+.feedback_section_left_mid{
+    height: 14rem;
+    border-radius: 0px 200px 200px 0px;
+    margin-top: 40px;
+    width: 90%;
+    border-left: none;
+    box-shadow: 0px 4px 57px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.feedback_section_left_mid h5{
+ text-align: center; 
+ padding-top:30px;  
+ font-family: 'Asap';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+color: var(--text_color);
+}
+.feedback_section_left_mid .feedback_color1{
+color: var(--blue_color);
+}
+
+.feedback_section_left_man_one{
+width:14%;
+height:55px;
+border-radius: 50%;
+background-image: url("../image/Rectangle\ 757.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+left: 50%;
+bottom: 90%;
+}
+/* one_end */
+.feedback_section_left_man_two{
+    width:14%;
+height:55px;
+border-radius: 50%;
+background-image: url("../image/Rectangle\ 758.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+right: 5%;
+top:3%;
+}
+/* two_end */
+.feedback_section_left_man_3rd{
+    width:14%;
+    height:55px;
+    border-radius: 50%;
+    background-image: url("../image/Rectangle\ 756.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 90%;
+    top:50%;
+}
+/* 3rnd_end */
+.feedback_section_left_man_4th{
+    width:14%;
+    height:55px;
+    border-radius: 50%;
+    background-image: url("../image/Rectangle\ 760.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+  right: 10%;
+    bottom: 0%;
+}
+.feedback_section_left_man_5th{
+    width:14%;
+    background-color: red;
+    height:55px;
+    border-radius: 50%;
+    background-image: url("../image/Rectangle\ 757.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+  right: 40%;
+top: 90%;
+}
+/* left_end */
+.feedback_section_right{
+
+}
+/* feedback_section_end */

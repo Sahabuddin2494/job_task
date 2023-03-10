@@ -54,6 +54,30 @@
         height: 4.6rem;
       }
        /* circle_details_end */
+       .feedback_section_left_man_5th {
+        width: 40px;
+        height: 40px;
+        right: 40%;
+        top: 92%;
+      }
+      .feedback_section_left_man_4th {
+        width: 40px;
+        height: 40px;
+        right: 13%;
+        bottom: 5%;
+      }
+      .feedback_section_left_man_two {
+        width: 40px;
+        height: 40px;
+        right: 7%;
+        top: 11%;
+      }
+      .feedback_section_left_man_one {
+        width: 40px;
+        height: 40px;
+        left: 50%;
+        bottom: 93%;
+      }
 }
 
 @media (min-width:768px) and (max-width:991.98px) {
@@ -115,6 +139,39 @@
      /* circle_details_end */
      .payment_gate_right_upper_section::before {
       height: 119px;
+    }
+    .feedback_section_left_man_5th {
+      width: 40px;
+      height: 40px;
+      right: 40%;
+      top: 92%;
+    }
+    .feedback_section_left_man_4th {
+      width: 40px;
+height: 40px;
+right: 6%;
+bottom: 5%;
+left: 89%;
+    }
+    .feedback_section_left_man_two {
+      width: 40px;
+      height: 40px;
+      right: 7%;
+      top: 11%;
+      left: 92%;
+    }
+    .feedback_section_left_man_one {
+      width: 40px;
+      height: 40px;
+      left: 50%;
+      bottom: 93%;
+    }
+    .feedback_section_left_man_3rd {
+      width: 14%;
+      height: 55px;
+      left: 92%;
+      top: 50%;
+      right: 0%;
     }
 }
 
@@ -190,6 +247,39 @@
       height: 4.1rem;
     }
      /* circle_details_end */
+     .feedback_section_left_man_5th {
+      width: 40px;
+      height: 40px;
+      right: 40%;
+      top: 92%;
+    }
+    .feedback_section_left_man_4th {
+      width: 40px;
+height: 40px;
+right: 6%;
+bottom: 5%;
+left: 89%;
+    }
+    .feedback_section_left_man_two {
+      width: 40px;
+      height: 40px;
+      right: 7%;
+      top: 11%;
+      left: 92%;
+    }
+    .feedback_section_left_man_one {
+      width: 40px;
+      height: 40px;
+      left: 50%;
+      bottom: 93%;
+    }
+    .feedback_section_left_man_3rd {
+      width: 14%;
+      height: 55px;
+      left: 92%;
+      top: 50%;
+      right: 0%;
+    }
 }
 @media (max-width:575.98px){
     .header_logo{
@@ -298,5 +388,38 @@
               }
               .payment_gate_right_title h2 {
                 font-size: 27px;
+              }
+              .feedback_section_left_man_5th {
+                width: 40px;
+                height: 40px;
+                right: 40%;
+                top: 92%;
+              }
+              .feedback_section_left_man_4th {
+                width: 40px;
+                height: 40px;
+                right: 10%;
+                bottom: 5%;
+               
+              }
+              .feedback_section_left_man_two {
+                width: 40px;
+                height: 40px;
+                right: 7%;
+                top: 10%;
+                left: r;
+              }
+              .feedback_section_left_man_one {
+                width: 40px;
+                height: 40px;
+                left: 50%;
+                bottom: 93%;
+              }
+              .feedback_section_left_man_3rd {
+                width: 14%;
+                height: 55px;
+                left: 92%;
+                top: 50%;
+                right: 0%;
               }
 }
