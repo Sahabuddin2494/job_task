@@ -238,7 +238,20 @@ bottom:85%;
     padding-left: 18px;
     width: 80%;
     text-align: center;
+    position: relative;
+    animation-name:c_img_1_size;
+    animation-duration: 6s;
 }
+  /* animation_img-3 */
+  @keyframes c_img_1_size {
+    0%   { bottom:0px;  right:0px; transform: scale(1.3); }
+    25%  { bottom:40px; right:0px;}
+    50%  { bottom:40px; right:200px;}
+    75%  { bottom:0px; right:200px;}
+    100% { bottom:0px; right:0px;}
+  }
+
+
 /* 1_img_end */
 .left_first_c_img_2{
     position:absolute;
@@ -255,7 +268,18 @@ bottom:85%;
     padding-left: 6px;
     padding-right: 4px;
     text-align: center;
+    position: relative;
+    animation-name:c_img_2_size;
+    animation-duration: 6s;
+    animation-direction: reverse;
 }
+@keyframes c_img_2_size {
+    0%   { bottom:0px;  right:0px; transform: scale(1.3); }
+    25%  { bottom:40px; right:0px;}
+    50%  { bottom:40px; right:100px;}
+    75%  { bottom:0px; right:100px;}
+    100% { bottom:0px; right:0px;}
+  }
 /* 2_img_end */
 .left_first_c_img_3{
     width:17%;
@@ -271,7 +295,18 @@ bottom:85%;
     width: 80%;
     padding-top:30px;
     padding-left: 10px;
+    position: relative;
+    animation-name:c_img_3_size;
+    animation-duration: 6s;
+    animation-direction: reverse;
 }
+@keyframes c_img_3_size {
+    0%   { bottom:0px;  right:0px; transform: scale(1.3); }
+    25%  { bottom:40px; right:0px;}
+    50%  { bottom:40px; right:100px;}
+    75%  { bottom:0px; right:100px;}
+    100% { bottom:0px; right:0px;}
+  }
 /* 3_img_end */
 .left_first_c_img_4{
     width:17%;
@@ -287,7 +322,19 @@ bottom:85%;
     width: 80%;
     padding-top:25px;
     padding-left: 14px;
+    position: relative;
+    animation-name:c_img_4_size;
+    animation-duration: 6s;
+    animation-direction: reverse;
+    z-index: 3;
 }
+@keyframes c_img_4_size {
+    0%   { bottom:0px;  right:0px; transform: scale(1.3); }
+    25%  { bottom:40px; right:0px;}
+    50%  { bottom:40px; right:100px;}
+    75%  { bottom:0px; right:100px;}
+    100% { bottom:0px; right:0px;}
+  }
 /* 4_img_end */
 .left_first_c_img_5{
     width:15%;
@@ -301,7 +348,20 @@ bottom:85%;
 .left_first_c_img_5_size{
 padding-top:15px;
 padding-left: 8px;
+position: relative;
+animation-name:c_img_4_size;
+animation-duration: 6s;
+
+z-index: 3;
 }
+
+@keyframes c_img_4_size {
+    0%   { bottom:0px;  right:0px; transform: scale(1.3); }
+    25%  { bottom:40px; right:0px;}
+    50%  { bottom:40px; right:100px;}
+    75%  { bottom:0px; right:100px;}
+    100% { bottom:0px; right:0px;}
+  }
 /* 5_img_end */
 /* payment_gateways_left_first_c _end*/
 
@@ -330,7 +390,18 @@ padding-left: 8px;
 .left_first_secon_img_1_size{
     padding-top: 25px;
     padding-left: 5px;
+    position: relative;
+animation-name:secon_img_1;
+animation-duration: 6s;
+z-index: 3;
 }
+@keyframes secon_img_1 {
+    0%   { bottom:0px;  right:0px; transform: scale(1.3); }
+    25%  { bottom:40px; right:0px;}
+    50%  { bottom:40px; right:100px;}
+    75%  { bottom:0px; right:100px;}
+    100% { bottom:0px; right:0px;}
+  }
 /* _one_end */
 .left_first_secon_img_2{
     width:22%;
@@ -344,8 +415,20 @@ padding-left: 8px;
 }
 .left_first_secon_img_2_size{
     padding-top:25px;
-    padding-left:5px
+    padding-left:5px;
+    position: relative;
+    animation-name:secon_img_2;
+    animation-duration: 6s;
+    z-index: 3;
+    animation-direction: alternate;
 }
+@keyframes secon_img_2 {
+    0%   { bottom:0px;  right:0px; transform: scale(1.3); }
+    25%  { bottom:40px; right:0px;}
+    50%  { bottom:40px; right:100px;}
+    75%  { bottom:0px; right:100px;}
+    100% { bottom:0px; right:0px;}
+  }
 /* second_one_end */
 .left_first_secon_img_3{
     width:18%;
@@ -360,7 +443,19 @@ padding-left: 8px;
 .left_first_secon_img_3_size{
     padding-top:20px;
     padding-left: 3px;
+    position: relative;
+    animation-name:secon_img_3;
+    animation-duration: 6s;
+    z-index: 3;
+   
 }
+@keyframes secon_img_3 {
+    0%   { bottom:0px;  right:0px; transform: scale(1.3); }
+    25%  { bottom:40px; right:0px;}
+    50%  { bottom:40px; right:100px;}
+    75%  { bottom:0px; right:100px;}
+    100% { bottom:0px; right:0px;}
+  }
 /* 3rd_one_end */
 .left_first_secon_img_4{
     width:18%;
@@ -375,7 +470,18 @@ padding-left: 8px;
 .left_first_secon_img_4_size{
     padding-top: 20px;
     padding-left: 5px;
+    position: relative;
+    animation-name:secon_img_4;
+    animation-duration: 6s;
+    z-index: 3;
 }
+@keyframes secon_img_4 {
+    0%   { bottom:0px;  right:0px; transform: scale(1.3); }
+    25%  { bottom:40px; right:0px;}
+    50%  { bottom:40px; right:100px;}
+    75%  { bottom:0px; right:100px;}
+    100% { bottom:0px; right:0px;}
+  }
 /* .left_first_secon_img_section_end */
 .payment_gateways_left_first_3rd{
     width:50%;
@@ -397,7 +503,18 @@ padding-left: 8px;
 }
 .left_3rd_img_size{
     width: 90%;
+    position: relative;
+    animation-name:third_img_1;
+    animation-duration: 6s;
+    z-index: 3;
 }
+@keyframes third_img_1 {
+    0%   { top:0px;  right:0px; }
+    25%  { top:100px; right:0px; transition: 0.7s;}
+    50%  { bottom:200px; right:0px;top:0px}
+    75%  { bottom:0px; right:100px; top:0px; transform: scale(1.3);}
+    100% { bottom:0px; right:0px;}
+  }
 /* left_end */
 .payment_gateways_section_right{
 
