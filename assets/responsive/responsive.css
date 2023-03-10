@@ -94,9 +94,25 @@
         line-height: 20px;
         color: #4277FF;
       }
+      .user_friendly_design_right_title h1 {
+        font-size: 34px;
+      }
+      .user_friendly_design_right_title p {
+        font-size: 12px;
+      }
 }
 
 @media (min-width:768px) and (max-width:991.98px) {
+  /* extra_part start*/
+  .user_friendly_design_section_start{
+    position:static;
+}
+.user_friendly_design_left{
+background-color: #2C3341;
+position:static;
+
+}
+  /* extra_part_end */
     .header_menu_section ul li {
         display: inline-block;
         padding: 6px 3px;
@@ -456,5 +472,9 @@ left: 89%;
               .user_friendly_design_right_title p {
                 font-size: 11px;
                 line-height: 16px;
+              }
+              .important_sider_size {
+                height: 208px;
+                width: 80%;
               }
 }
