@@ -521,5 +521,70 @@ z-index: 3;
 .payment_gateways_section_right{
 
 }
+.payment_gate_right_upper_section{
+background-color:#E4E9EB;
+border-radius: 10px;
+position: relative;
+}
+.payment_gate_right_upper_section::before{
+content: "";
+width:32%;
+height:100px;
+background-image: url('../image/Rectangle\ 802.png');
+/* background-color: red; */
+display:inline-block;
+background-position: center;
+background-size: cover;
+position: absolute;
+right: 82%;
+bottom:4%;
+}
+.upper_right_two{
 
+}
+.payment_gate_right_small{
+
+}
+.payment_gate_right_small p{
+    color:var(--blue_color);
+    font-family: 'Asap';
+    font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+}
+.payment_gate_right_title{
+
+}
+.payment_gate_right_title h2{
+    font-family: 'Asap';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+color: var(--text2-color);
+}
+.payment_gate_right_para{
+
+}
+.payment_gate_right_para .btn{
+    background-color: #3C65F6;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    margin-top: 20px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.payment_gate_right_para p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #A5A9B0;
+}
 /* payment_gateways_section_end */

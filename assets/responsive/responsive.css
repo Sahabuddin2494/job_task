@@ -113,6 +113,9 @@
       height: 4.6rem;
     }
      /* circle_details_end */
+     .payment_gate_right_upper_section::before {
+      height: 119px;
+    }
 }
 
 @media (min-width:576px) and (max-width:767.98px){
@@ -289,4 +292,11 @@
               right: 10%;
             }
              /* circle_details_end */
+             .payment_gate_right_upper_section::before{
+              /* background-color: red; */
+              display:none;
+              }
+              .payment_gate_right_title h2 {
+                font-size: 27px;
+              }
 }
