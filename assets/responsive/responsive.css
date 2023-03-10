@@ -110,7 +110,6 @@
 .user_friendly_design_left{
 background-color: #2C3341;
 position:static;
-
 }
   /* extra_part_end */
     .header_menu_section ul li {
@@ -214,6 +213,15 @@ left: 89%;
 }
 
 @media (min-width:576px) and (max-width:767.98px){
+    /* extra_part start*/
+    .user_friendly_design_section_start{
+      position:static;
+  }
+  .user_friendly_design_left{
+  background-color: #2C3341;
+  position:static;
+  }
+    /* extra_part_end */
     .header_logo{
         text-align: center;
     }
@@ -326,6 +334,15 @@ left: 89%;
     }
 }
 @media (max-width:575.98px){
+    /* extra_part start*/
+    .user_friendly_design_section_start{
+      position:static;
+  }
+  .user_friendly_design_left{
+  background-color: #2C3341;
+  position:static;
+  }
+    /* extra_part_end */
     .header_logo{
         text-align: center;
     }
